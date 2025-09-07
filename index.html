@@ -1,0 +1,58 @@
+
+<!--
+Password Generator HTML
+- This page lets the user choose password options and displays the result.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <!-- Link to the CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main form for user input -->
+    <form id="passwordForm">
+        <!-- Page title -->
+        <h1 id="title">Password Generator</h1>
+
+        <!-- Input for password length -->
+        <label for="length">Password Length:</label>
+        <input type="number" id="length" name="length" min="1" max="128" value="12" required>
+        <br>
+
+        <!-- Checkbox for lowercase letters -->
+        <input type="checkbox" id="lowercase" name="lowercase" checked>
+        <label for="lowercase">Include Lowercase</label>
+        <br>
+
+        <!-- Checkbox for uppercase letters -->
+        <input type="checkbox" id="uppercase" name="uppercase" checked>
+        <label for="uppercase">Include Uppercase</label>
+        <br>
+
+        <!-- Checkbox for numbers -->
+        <input type="checkbox" id="numbers" name="numbers" checked>
+        <label for="numbers">Include Numbers</label>
+        <br>
+
+        <!-- Checkbox for symbols -->
+        <input type="checkbox" id="symbols" name="symbols">
+        <label for="symbols">Include Symbols</label>
+        <br>
+
+        <!-- Button to generate the password -->
+        <button type="submit" onclick="generatePassword()">Generate Password</button>
+
+        <!-- Area to display the generated password -->
+        <h2 id="result"></h2>
+        <!-- Area to display error messages -->
+        <p id="error" style="color: red;"></p>
+    </form>
+
+    <!-- Link to the JavaScript file -->
+    <script src="index.js"></script>
+</body>
+</html>

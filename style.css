@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+
+    /*
+    Password Generator CSS
+    - Styles the layout and appearance of the password generator page.
+    */
+
+    body {
+        font-family: Arial, sans-serif; /* Sets the main font */
+        margin: 20px;
+        background-color: #f4f4f4; /* Light gray background */
+        color: #333; /* Dark text color for readability */
+    }
+
+    form {
+        text-align: center; /* Center the form content */
+        border: 5px solid black; /* Thick border around the form */
+        border-radius: 15px; /* Rounded corners */
+        max-width: 500px; /* Maximum width of the form */
+        max-height: 400px; /* Maximum height of the form */
+        box-shadow: 5px 5px 15px hsla(0, 0%, 32%, 1.00); /* Drop shadow */
+        margin: auto; /* Center the form horizontally */
+        padding-bottom: 130px; /* Space at the bottom */
+    }
+
+    #title {
+        font-size: 1.5em; /* Larger font for the title */
+        font-weight: bold;
+        color: hsla(240, 60%, 25%, 1.00); /* Dark blue color */
+        font-family: 'Courier New', Courier, monospace; /* Monospace font for the title */
+    }
+
+    input {
+        margin: 12px 0; /* Space above and below inputs */
+    }
+
+    button {
+        margin-top: 15px; /* Space above the button */
+    }
+
+    label {
+        border: 1px solid black; /* Border around labels */
+        border-radius: 5px; /* Rounded label corners */
+        padding: 5px; /* Padding inside labels */
+        font-family: Arial, sans-serif;
+    }
+
+    #result {
+        border: 1px solid black; /* Border around the result */
+        word-break: break-all; /* Allow long passwords to wrap */
+        white-space: pre-wrap; /* Preserve spaces and wrap text */
+        padding: 10px; /* Padding inside the result area */
+        min-height: 2em; /* Minimum height for the result area */
+    }
+    font-size: 1em;
+    word-break: break-all;
+    white-space: pre-wrap; 
+}

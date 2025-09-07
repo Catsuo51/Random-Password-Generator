@@ -35,6 +35,12 @@
 
     button {
         margin-top: 15px; /* Space above the button */
+        transition: all 0.3s ease; /* Smooth transition for hover effects */
+    }
+
+    button:hover {
+        scale: 1.1; /* Slightly enlarge button on hover */
+        background-color: white; /* Change background color on hover */
     }
 
     label {
